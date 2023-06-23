@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="DtmUtil.js"></script>
-    <title>Document</title>
+    <script src="source/DtmUtil.js"></script>
+    <title>測試</title>
 </head>
 
 <body>
@@ -16,21 +16,24 @@
             <li>2020/02/29</li>
             <li>2020/02/29 23:59:59</li>
             <li>2020/02/29T23:59:59</li>
+            <li>2020-02-29</li>
+            <li>2020-02-29 23:59:59</li>
+            <li>2020-02-29T23:59:59</li>
         </ul>
     </div>
-    <input type="text" name="textBox" id="textBox"><button id="btn">textBox</button>
+    <input type="text" name="textBox" id="textBox"><button id="btn">測試</button>
     <div id="page">
         <div>使用 string 輸入</div>
-        <div>String 輸入 ConvertToDate :<span id="StringConvertToDate"></span></div>
-        <div>String 輸入 ConvertToDateString<span id="StringConvertToDateString"> </span></div>
-        <div>String 輸入 ConvertToDtm<span id="StringConvertToDtm"> </span></div>
-        <div>String 輸入 ConvertToDtmString<span id="StringConvertToDtmString"> </span></div>
+        <div>String 輸入 ConvertToDate : <span id="StringConvertToDate"></span></div>
+        <div>String 輸入 ConvertToDateString : <span id="StringConvertToDateString"> </span></div>
+        <div>String 輸入 ConvertToDtm : <span id="StringConvertToDtm"> </span></div>
+        <div>String 輸入 ConvertToDtmString : <span id="StringConvertToDtmString"> </span></div>
 
         <div>使用 Date 輸入</div>
-        <div>Date 輸入 ConvertToDate<span id="DateConvertToDate"> </span></div>
-        <div>Date 輸入 ConvertToDateString<span id="DateConvertToDateString"> </span></div>
-        <div>Date 輸入 ConvertToDtm<span id="DateConvertToDtm"> </span></div>
-        <div>Date 輸入 ConvertToDtmString<span id="DateConvertToDtmString"> </span></div>
+        <div>Date 輸入 ConvertToDate : <span id="DateConvertToDate"> </span></div>
+        <div>Date 輸入 ConvertToDateString : <span id="DateConvertToDateString"> </span></div>
+        <div>Date 輸入 ConvertToDtm : <span id="DateConvertToDtm"> </span></div>
+        <div>Date 輸入 ConvertToDtmString : <span id="DateConvertToDtmString"> </span></div>
     </div>
     <script>
         document.getElementById("page").style.display = "none";
